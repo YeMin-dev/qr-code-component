@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -39,9 +39,10 @@ Positioning element in center using transform() function.
 
 ```css
 .example {
-  	transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 ```
+
 ### Useful resources
 
 - [w3schools](https://www.w3schools.com/) - Tips from this site helped me centering component in the middle vertically and horizontally.

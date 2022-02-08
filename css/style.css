@@ -1,0 +1,50 @@
+:root {
+  --background-color: hsl(212, 45%, 89%);
+  --wrapper-color: hsl(0, 0%, 100%);
+  --main-font: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-color);
+  font-family: var(--main-font);
+}
+
+p {
+  padding: 10px 10px 0px;
+}
+
+p:first-of-type {
+  font-weight: 700;
+  color: hsl(219, 40%, 21%);
+  font-size: large;
+}
+
+p:last-of-type {
+  font-weight: 400;
+  color: hsl(218, 4%, 61%);
+  font-size: small;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 250px;
+  padding: 13px 13px 30px;
+  border-radius: 15px;
+  background: var(--wrapper-color);
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
